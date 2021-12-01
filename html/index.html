@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Brighton Photography </title>
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Gallery</a></li>
+                
+            </ul>
+        </nav>
+        <!-- top title page/ -->
+       <div class="top">
+        <h1>Brighton in Pictures</h1>
+        <p>
+            Hi welcome to our website,
+            here we are showcasing some of our favourite photos in and around the city of Brighton. Hope you enjoy!</p>
+        <img src="/img/seagull-looking-out-to-sea-1384998.jpg" alt= seagull looking at the sea width="175px"; height= "120px";border 5px solid;>
+       </div>
+       
+    </body>
+</style>
+</head>
+<body>
+  
+  <section>
+
+    <body>
+        <div class="flexItem">
+          <div class="flexItem1">
+            <h2>Brighton and Hove</h2>
+            <p>Brighton and Hove is a city where we are currently from and are both studying at the University of Sussex!! </p>
+          </article>
+          </div>
+
+          <div class="flexItem2"><article>
+            <h2>Places to go</h2>
+            <ul>
+                <li> Pavillion</li>
+                <li>The North Lanes</li>
+                <li>The Seafront</li>
+                <li>The Aquarium,</li> 
+                <li>Churchill square</li>
+                <li>Hove lagoon</li> 
+                <li>The Marina</li>
+             </ul>
+          </div>
+          <div class="flexItem3"><h2>Why we made this website?</h2>
+
+            <p> This website is to showcase our all new web development skills after completing our CFG course!</p>
+            <button id=conniebutton> Connie </button>
+            <button id=kamibutton> Kami </button>
+          </article></div>
+        </div>
+        <p id="kami"></p>
+        <p id="connie"></p>
+        <script>
+            var x = document.getElementById("conniebutton");
+            x.addEventListener("mouseout", myFunction);
+            x.addEventListener("click", mySecondFunction);
+            function myFunction() {
+  document.getElementById("connie").innerHTML += "Bye from Connie!<br>";
+}
+
+function mySecondFunction() {
+  document.getElementById("connie").innerHTML += "Hi from Connie!<br>";
+}
+    </script>
+     <script>
+        var x = document.getElementById("kamibutton");
+        x.addEventListener("mouseout", myFunction);
+        x.addEventListener("click", mySecondFunction);
+        function myFunction() {
+document.getElementById("kami").innerHTML += "Bye from Kami!<br>";
+}
+
+function mySecondFunction() {
+document.getElementById("kami").innerHTML += "Hi from Kami!<br>";
+}
+        </script>
+                     
+</html>
