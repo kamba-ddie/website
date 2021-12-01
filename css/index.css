@@ -23,6 +23,7 @@ html {
   margin-top: 55px;
   text-align: left;
   padding: 100px 0;
+  align-items:centre;
 }
 .top p, h1, button {
    margin-left: 40px;
@@ -89,18 +90,15 @@ flex:1;
     align-items: normal;
     box-shadow: 10px 10px 5px grey;
     line-height: 3.5;
-    padding: 10px;
     font-size: 3rem;
     text-align: center;
     color: rgb(168, 198, 199);
     text-shadow: 2px 2px 2px #000;
-    border-radius: 10px;
-    background-color: rgb(33, 143, 170);
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6); 
+    background-color: rgb(33, 143, 170); 
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 33;
 }
 #likebutton:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
@@ -117,3 +115,26 @@ flex:1;
         align-self: auto;
 
     }
+   
+   #kamibutton {
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
+    color: rgb(168, 198, 199);
+    text-shadow: 2px 2px 2px #000;
+    background-color: rgb(33, 143, 170); 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15;
+}
+  #conniebutton{
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
+    color: rgb(168, 198, 199);
+    text-shadow: 2px 2px 2px #000;
+    background-color: rgb(33, 143, 170); 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15;
+  }
