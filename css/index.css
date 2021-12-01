@@ -76,7 +76,7 @@ html {
 
 .flexcontainerimages{
     display: flex;
-    flex-direction: row ;
+    flex-direction: column ;
     margin-top: 100px;
     flex-wrap: wrap;
   height: 400px;
@@ -106,7 +106,7 @@ flex:1;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: brown() 24, 41, 194);
+    background-color: rgb(109, 47, 47);
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), 
 }
 #likebutton:active {
