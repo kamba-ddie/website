@@ -69,7 +69,6 @@ html {
     flex-direction: row-reverse;
     margin-top: 100px;
    height: 200px;
-   text-align: center;
    align-items: stretch;
 
  
@@ -96,17 +95,21 @@ flex:1;
 #likebutton {
     border: 0;
     margin-top: 300px;
-    align-items: center;
+    align-items: normal;
     box-shadow: 10px 10px 5px grey;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 10px;
     font-size: 3rem;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgb(33, 143, 170);
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), 
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6); 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #likebutton:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),

@@ -31,10 +31,10 @@
     
 
         <div class="flexcontainers">
-            <div class="container">
+            <div class="container1">
             <div class="photobox1"> 
                 <img src="/images/brownies.jpg" alt= "browniesphoto" class="image"  style="border:5px dotted white;">
-                <div class="overlay"> Brownies</div>
+                <div class="overlay2">Brownies</div>
                 </div>
             </div>
          <div class="photobox2">
@@ -52,7 +52,7 @@
         </div>
        
 <style>
-.container {
+.container1 {
     position:relative;
     width: 100%;
     max-width: 300px;}
@@ -95,7 +95,21 @@
     text-align: center;
   }
   
-  .photobox1:hover .overlay{
+  .overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: rgb(204, 171, 160);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  .photobox1:hover .overlay2{
     opacity: 1;
   }
   
