@@ -66,12 +66,13 @@ html {
   /*flex containers on images page */ 
 .flexcontainers {
     display: flex;
-    flex-direction: column;
+    flex-direction: normal;
     margin-top: 150px;
    height: 200px;
    text-align: center;
    align-items: stretch;
 
+ 
 }
 .flexcontainers {
   background-color:#7fbbff;
@@ -80,6 +81,7 @@ html {
 
 .photobox1{
   flex:1;
+
 }
 .photobox1{
   flex:1;
