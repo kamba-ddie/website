@@ -76,19 +76,18 @@ html {
 
 .flexcontainerimages{
     display: flex;
-    flex-direction: column ;
-    margin-top: 100px;
-    flex-wrap: wrap;
-  height: 400px;
+    flex-direction: row;
+    margin-top: 150px;
+   height: 400px;
   justify-content: space-between;
   text-align: center;
 
 }
 .photobox1{
-    flex:1;
+  flex:1;
 }
 .photobox2{
-    flex:1;
+  flex:1;
 }
 .photobox3{
 flex:1;

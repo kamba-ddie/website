@@ -19,40 +19,51 @@
         
 
         <!-- trying to figure out how to get all the images to have hover over them-->
+    
+
         <div class="flexcontainers">
             <div class="container">
             <div class="photobox1"> 
-                <img src="/images/brownies.jpg" alt= "browniesphoto" class="image" style= "border:5px dotted white; margin-left:10px;">
-                <div class="overlay">Chocolate Brownies</div>
+                <img src="/images/brownies.jpg" alt= "browniesphoto" class="image" width="200px" height="150px" style= "border:5px dotted white; margin-left:10px;">
+                <div class="overlay"> Brownies</div>
+                </div>
+                </div>
          <div class="photobox2">
-             <div class="container">
-            <img src="/images/waffles.jpg" alt="photo of waffles" class="image" style = "border: 5px dotted white; margin-left: 10px;"> 
+            <div class="container2">
+            <img src="/images/waffles.jpg" alt="photo of waffles" class="image2" width="200px" height="150px"style = "border: 5px dotted white; margin-left: 10px;"> 
             <div class="overlay">Waffles</div>
-             </div>
-        
+            </div>
+         </div>
          <div class= "photobox3"> 
-             <div class="container">
-             <img src="/images/cakes.jpg" alt="cookies" class="image" style="border:5px dotted white;margin: left 10px;">
+             <div class="container3">
+             <img src="/images/cakes.jpg" alt="cookies" class="image3" width="200px" height="150px"style="border:5px dotted white;margin: left 10px;">
              <div class="overlay">Cookies</div>
+             </div>
          </div>
-         </div>
-</div>
         </div>
        
-</html>
 <style>
 .container {
-    position: fixed;
-    width: 50%;
+    margin-top:100px;
+    position:relative;
+    width: 60%;
     max-width: 300px;
   }
-  
   .image {
-    display: block;
+    display:block;
     width: 100%;
     height: auto;
   }
-  
+  .image2 {
+  display: block;
+  width: 40%;
+  height: auto;
+  }
+  .image3 {
+  display: block;
+  width: 40%;
+  height: auto;}
+
   .overlay {
     position: absolute; 
     bottom: 0; 
@@ -68,7 +79,7 @@
     text-align: center;
   }
   
-  .photobox1:hover .overlay {
+  .photobox1:hover .overlay{
     opacity: 1;
   }
   
@@ -78,6 +89,17 @@
   .photobox3:hover .overlay{
       opacity: 1;
   }
+
+
+  .container2 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;}
+.container3{
+    position: relative;
+    width: 100%;
+    max-width: 300px;}
+}
   </style>
 
 
@@ -103,3 +125,4 @@
                     });
                     </script> 
     </body>
+    </html>
