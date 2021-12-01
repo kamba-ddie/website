@@ -26,11 +26,13 @@ html {
 }
 .top p, h1, button {
    margin-left: 40px;
+   padding-top:0px ;
 }
    /*interation on the front page*/ 
   .flexItem {
     padding: 10px;
     border: 5px dashed rgb(20, 16, 218);
+    height:300px;
   }
   @media (hover: hover)
   {.flexItem1:hover {
@@ -65,11 +67,11 @@ html {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 100px;
-   height: 200px;
+   height: 310px;
    align-items: stretch;
   background-color:#7fbbff;
   color:rgb(13, 120, 219, 0.5);
-  padding: 75px ;}
+  padding-top: 0px;}
 
 .photobox1{
   flex:1;
@@ -82,15 +84,15 @@ flex:1;
 }
 /*button on image page*/ 
 #likebutton {
-    border: 0;
     margin-top: 180px;
+    margin-bottom:10px;
     align-items: normal;
     box-shadow: 10px 10px 5px grey;
     line-height: 3.5;
     padding: 10px;
     font-size: 3rem;
     text-align: center;
-    color: #fff;
+    color: rgb(168, 198, 199);
     text-shadow: 2px 2px 2px #000;
     border-radius: 10px;
     background-color: rgb(33, 143, 170);
@@ -112,5 +114,6 @@ flex:1;
         font:20px;
         width:100px;
         height:100px;
+        align-self: auto;
 
     }
