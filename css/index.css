@@ -32,15 +32,7 @@ html {
 .top p, h1, button {
    margin-left: 40px;
 }
-
-.flexcontainer {
-    background-color:#7fbbff;
-    color:rgb(13, 120, 219);
-    margin-top: 75px;
-    text-align: left;
-    padding: 100px ;
     
-}
   .flexItem {
     padding: 10px;
     border: 5px dashed rgb(20, 16, 218);
@@ -74,14 +66,22 @@ html {
       flex: 1;
   }
 
-.flexcontainerimages{
+.flexcontainers {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     margin-top: 150px;
-   height: 400px;
-  justify-content: space-between;
+   height: 200px;
   text-align: center;
+  justify-content: normal;
 
+
+}
+.flexcontainers {
+  background-color:#7fbbff;
+  color:rgb(13, 120, 219, 0.5);
+  padding: 75px ;}
+.photobox1{
+  flex:1;
 }
 .photobox1{
   flex:1;
