@@ -66,7 +66,7 @@ html {
   /*flex containers on images page */ 
 .flexcontainers {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 150px;
    height: 200px;
    text-align: center;
@@ -77,6 +77,7 @@ html {
   background-color:#7fbbff;
   color:rgb(13, 120, 219, 0.5);
   padding: 75px ;}
+
 .photobox1{
   flex:1;
 }
