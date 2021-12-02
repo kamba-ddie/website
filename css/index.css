@@ -9,6 +9,11 @@ ul{
   padding:0;
   margin-left: 20px;
 }
+.croissant{
+margin-left: 450px;
+border:5px;
+border-color: purple;}
+
 /*nav bar */
 .navbar {
   background-color: #0f2e68;
@@ -24,11 +29,10 @@ ul{
   background-color: #7fbbff;
   color: rgb(72, 2, 119);
   margin-top: 55px;
-  text-align: left;
   padding: 100px 0;
-  align-items:center;
-   margin-left: 40px;
-   padding-top:0px ;
+ align-items:center;
+ margin-left: 10px;
+  padding-top:0px ;
 }
    /*interation on the front page*/ 
   .flexItem {
@@ -89,4 +93,6 @@ ul{
   width: 100px;
   height:50px;  }
   
-  
+  .croissant{
+    align-items: center;
+  }
