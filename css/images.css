@@ -12,15 +12,11 @@ ul{
 }
 /*nav bar */
 .navbar {
-  background-color: #0f2e68;
+  background-color: #2352a8;
   position: fixed;
   width: 100%;
   top: 0px;
-}
-.navbar li {
-  display: inline-block;
-  color: white;
-}
+  display: inline-block;}
 .top {
   background-color: #7fbbff;
   color: rgb(156, 100, 194);
@@ -39,21 +35,9 @@ ul{
    align-items: stretch;
   background-color:#7fbbff;
   color:rgb(13, 120, 219, 0.5);
-  padding-top: 0px;}
- 
-  .columncontainer{
-    display:flex;
-    justify-content:space-evenly;
+  padding-top: 0px;
+  justify-content:space-evenly;
   }
-.photobox1{
-  flex:1;
-}
-.photobox2{
-  flex:1;
-}
-.photobox3{
-flex:1;
-}
 /*button on image page*/ 
 #likebutton {
     margin-top: 180px;
@@ -83,29 +67,15 @@ flex:1;
         margin-left: 515px;
          white-space: nowrap;
          margin-top:10%;
-
     }
-    .textratings{
-        display: flex;
-        flex-direction: row;
-        margin-top: 75px;
-        height: 300px;
-        padding: 10px;   
-        background-color:pink;
-        width:100%;
-        align-items: center;
-        margin-left: 0px;
-        justify-content: space-around;
-        border-color: rgb(12, 18, 29), 0.5;
-      }
-      
+
       .column{
         flex:1;
+
         position:relative;
         width: 33%;
         max-width: 300px;}
-      
-    
+
         .container {
           position:relative;
           width: 100%;
@@ -155,7 +125,6 @@ flex:1;
             transform: translate(-50%, -50%);
             text-align: center;
     }
- 
   .column:hover .overlay2 {
     opacity: 1;
   }
