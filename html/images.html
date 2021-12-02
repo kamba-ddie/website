@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Gallery </title>
-        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/images.css">
+        <script src = "images.js"></script>
+        
     </head>
     <body>
         <!-- Navbar -->
@@ -15,41 +17,81 @@
                 <li><a href="images.html">Gallery</a></li>
             </ul>
         </nav>
-        <div class="flexcontainerimages">
-            <div class="photobox1"> <box width="600px" height="360px"> 
-                <img src="/images/royal-pavilon-1235749.jpg" alt= photo of the pavillion width="600px" height="360px" style= "border:5px dotted white; margin-left:10px;">
-                <p> This is the only photo we didn't take ourselves</p>
-            </box> </div>
-         <div class="photobox2">
-            <img src="/images/20211013_183028.jpg" alt="photo of brighton marina" width="600x" height="360px" style = "border: 5px dotted white; margin-left: 10px;"> 
-        <p>This is a photo of the Brighton marina</p></div>
-        
-         <div class= "photobox3"> 
-             <img src="/images/20210206_133900.jpg" alt="photo of dog on a tractor in woodingdean" width=600px height=360px style="border:5px dotted white;margin: left 10px;">
-            <p>This is a photo of a dog on a tractor in the outskirts of Brighton</p></div> 
-         <div class= photobox4>
-             <img src="/images/20210307_173959.jpg" alt="brighton beach" width=600px height=360px style="border:5px dotted white;margin: left 10px;">
-             <p> This is a photo of Brighton central beach at Sunset</p>
+
+        <div class="gallery">
+            <h1>Gallery of baked goods!</h1>
+        </div>
+
+        <!-- trying to figure out how to get all the images to have hover over them-->
+    
+
+        <div class="columncontainer">
+            <div class="column">
+                <img src="/images/brownies.jpg" alt= "browniesphoto" class="image"  style="border:5px dotted white;">
+                <div class="overlay" style="font-size: 45px;">Brownies</div>
+            </div>    
+            
+            <div class="column">
+            <img src="/images/waffles.jpg" alt="photoofwaffles" class="image" style="border:5px dotted white;"> 
+            <div class="overlay" style="font-size: 45px;">Waffles</div>
+            </div>
+            
+             <div class="column">
+             <img src="/images/cakes.jpg" alt="cookies" class="image" style="border:5px dotted white;">
+             <div class="overlay" style="font-size: 45px;">Cookies</div>
+             </div>
          </div>
         </div>
-        <script>
-            document.body.addEventListener("click", function(){
-              document.body.style.backgroundColor = "cyan";
-            });
-            </script>
        
-       <div>
-            <button id=likebutton>Do you like our website?</button>
+<!--text rating in html!-->
+
+  <body>
+    <div class="columncontainer">
+        <div class="column">
+            <ul style="font-size:25px">
+                <li>Kami likes walnut brownies the best!</li>
+               <li>Connie's favourite baked item is brownies!</li>
+             </ul>
+            <p style="font-size: 20px ;"> Brownies are definitely the favourite from the both of us! But Connie definitely likes them the most! </p>
+            <div class="overlay2" style="font-size: 75px ;"><div class="Text">We rate them a 10/10!</div></div>
+          </div>
+        <div class= "column" >
+                <ul style="font-size:25px">
+                <li>Kami likes nutella on her waffles</li>
+               <li>Connie likes berries on her waffles</li>
+             </ul>
+             <p style="font-size: 20px ;"> Regardless of the toppings, we both really like waffles for breakfast in the morning! (Even more than a full English breakfast!)</p>
+             <div class="overlay2">
+                 <div class="Text" style="font-size: 75px ;"> We rate them a 8/10!</div>
+             </div>
         </div>
-             
-             <script>
-                var x = document.getElementById("likebutton");
-                x.addEventListener("click", myFunction);
-                x.addEventListener("click", someOtherFunction);
-                
-                function myFunction() {
-                  alert ("Do you like our website?");
-                }
-                function someOtherFunction() {  alert ("We like it too!");}
-                </script>  
-</html>
+        <div class= "column" >
+           
+           <ul style="font-size:25px">
+            <li>Kami prefers double chocolate chip!</li>
+            <li>Connie likes cookies with white chocolate</li>
+          </ul>
+          <p style="font-size: 20px ;">We aren't actually very picky about cookies, we really love them! But Kami is always trying to eat them!</p>
+           <div class="overlay2">
+             <div class="Text" style="font-size: 75px ;"> We rate them a 9/10!</div> 
+        </div>
+     </div>
+    </div>
+
+ <!-- The big button!-->
+     <div>
+      <button id=likebutton>Do you like our website?</button>
+    </div>     
+
+    <script>
+        var x = document.getElementById("likebutton");
+        x.addEventListener("click", myFunction);
+        x.addEventListener("click", someOtherFunction);
+
+        function myFunction() {
+          alert ("Do you like our website?");
+        }
+        function someOtherFunction() {  alert ("We like it too!");}
+        </script>
+    </body>
+    </html>

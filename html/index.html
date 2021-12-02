@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Brighton Photography </title>
+        <title> Bakes </title>
+        <script src="index.js"></script>
         <link rel="stylesheet" href="/css/index.css">
     </head>
     <body>
@@ -18,13 +19,23 @@
         </nav>
         <!-- top title page/ -->
        <div class="top">
-        <h1>Brighton in Pictures</h1>
+        <h1>Our favourite bakes</h1>
         <p>
             Hi welcome to our website,
-            here we are showcasing some of our favourite photos in and around the city of Brighton. Hope you enjoy!</p>
-        <img src="/images/seagull-looking-out-to-sea-1384998.jpg" alt= seagull looking at the sea width="175px"; height= "120px";border 5px solid;>
-       </div>
-       
+            here we are showcasing some of our favourite cakes. Hope you enjoy!</p>
+            <img class=croissant src="/images/croissants.jpg" alt= acakeimage width="200px"; height= "275px"; border= 5px solid white;>
+            <img class=gbread src="/images/gingerbread.jpeg" alt= gingerbreadhouse width="200px"; height= "275px"; border= 5px solid white;>
+           </div>
+           <style>
+    .croissant{
+      position: center;
+    }
+    .gbread{
+      position: center;
+    margin-top:0px;
+    }
+    
+       </style>
     </body>
 </style>
 </head>
@@ -35,55 +46,29 @@
     <body>
         <div class="flexItem">
           <div class="flexItem1">
-            <h2>Brighton and Hove</h2>
-            <p>Brighton and Hove is a city where we are currently from and are both studying at the University of Sussex!! </p>
+            <h2>Bakes</h2>
+            <p>The two of us making this website like cakes so we made this website to highlight our favourites </p>
           </article>
           </div>
 
           <div class="flexItem2"><article>
-            <h2>Places to go</h2>
+            <h2>List of various baked goods</h2>
             <ul>
-                <li> Pavillion</li>
-                <li>The North Lanes</li>
-                <li>The Seafront</li>
-                <li>The Aquarium,</li> 
-                <li>Churchill square</li>
-                <li>Hove lagoon</li> 
-                <li>The Marina</li>
+                <li>Lemon drizzle cake</li>
+                <li>Brownies</li>
+                <li>Chocolate biscuits</li>
+                <li>Cookies</li>
+                <li>Macaroons</li>
              </ul>
           </div>
-          <div class="flexItem3"><h2>Why we made this website?</h2>
-
+          <div class="flexItem3">
+            <h2>Why we made this website?</h2>
             <p> This website is to showcase our all new web development skills after completing our CFG course!</p>
             <button id=conniebutton> Connie </button>
-            <button id=kamibutton> Kami </button>
+            <button id=kamibutton>  Kami  </button>
           </article></div>
         </div>
         <p id="kami"></p>
         <p id="connie"></p>
-        <script>
-            var x = document.getElementById("conniebutton");
-            x.addEventListener("mouseout", myFunction);
-            x.addEventListener("click", mySecondFunction);
-            function myFunction() {
-  document.getElementById("connie").innerHTML += "Bye from Connie!<br>";
-}
-
-function mySecondFunction() {
-  document.getElementById("connie").innerHTML += "Hi from Connie!<br>";
-}
-    </script>
-     <script>
-        var x = document.getElementById("kamibutton");
-        x.addEventListener("mouseout", myFunction);
-        x.addEventListener("click", mySecondFunction);
-        function myFunction() {
-document.getElementById("kami").innerHTML += "Bye from Kami!<br>";
-}
-
-function mySecondFunction() {
-document.getElementById("kami").innerHTML += "Hi from Kami!<br>";
-}
-        </script>
-                     
+ 
 </html>
