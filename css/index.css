@@ -3,7 +3,6 @@
 html {
   font-family: "Lora", serif;
   background-color: rgba(117, 190, 218, 0.5);
-  background-color: blue;
   background-image: linear-gradient(to right, blue , pink);
 }
 ul{
