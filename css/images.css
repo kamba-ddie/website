@@ -21,7 +21,7 @@ ul{
 }
 .top {
   background-color: #7fbbff;
-  color: rgb(72, 2, 119);
+  color: rgb(156, 100, 194);
   margin-top: 55px;
   text-align: left;
   padding: 100px 0;
@@ -32,7 +32,7 @@ ul{
 .columncontainer {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 100px;
+    margin-top: 75px;
    height: 310px;
    align-items: stretch;
   background-color:#7fbbff;
@@ -72,10 +72,11 @@ flex:1;
 /*title box of page 2 */
 .gallery{
         margin-top: 50px;
-        font:20px;
         width:100px;
         height:100px;
-        align-self: auto;
+        margin-left: 515px;
+         white-space: nowrap;
+         margin-top:10%;
 
     }
     .textratings{
@@ -89,6 +90,7 @@ flex:1;
         align-items: center;
         margin-left: 0px;
         justify-content: space-around;
+        border-color: rgb(12, 18, 29), 0.5;
       }
       
       .column{
