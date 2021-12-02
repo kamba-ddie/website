@@ -3,6 +3,8 @@
 html {
   font-family: "Lora", serif;
   background-color: rgba(117, 190, 218, 0.5);
+  background-color: blue;
+  background-image: linear-gradient(to right, blue , pink);
 }
 ul{
   padding:0;
@@ -38,7 +40,11 @@ ul{
   background-color:#7fbbff;
   color:rgb(13, 120, 219, 0.5);
   padding-top: 0px;}
-
+ 
+  .columncontainer{
+    display:flex;
+    justify-content:space-evenly;
+  }
 .photobox1{
   flex:1;
 }
@@ -84,7 +90,7 @@ flex:1;
         flex-direction: row;
         margin-top: 75px;
         height: 300px;
-        padding: 20px;   
+        padding: 10px;   
         background-color:pink;
         width:100%;
         align-items: center;
@@ -99,10 +105,6 @@ flex:1;
         width: 33%;
         max-width: 300px;}
       
-        .columncontainer{
-          display:flex;
-          justify-content:space-evenly;
-        }
     
         .container {
           position:relative;
@@ -129,6 +131,33 @@ flex:1;
           text-align: center;
         }
         .column:hover .overlay{
-          opacity: 1;
+            opacity: 1;
+          }
+        /*this is overlay for the text part*/
+        .overlay2 {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #4a2c7a;
         }
-        
+        .text {
+            color: white;
+            font-size: 100px;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+    }
+ 
+  .column:hover .overlay2 {
+    opacity: 1;
+  }
