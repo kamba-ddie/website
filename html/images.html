@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Gallery </title>
-        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/images.css">
+        <script src="images.js"></script>
         
     </head>
     <body>
@@ -24,128 +25,49 @@
         <!-- trying to figure out how to get all the images to have hover over them-->
     
 
-        <div class="flexcontainers">
-            <div class="container1">
-            <div class="photobox1"> 
+        <div class="columncontainer">
+            <div class="column">
                 <img src="/images/brownies.jpg" alt= "browniesphoto" class="image"  style="border:5px dotted white;">
-                <div class="overlay2">Brownies</div>
-                </div>
-            </div>
-         <div class="photobox2">
-            <div class="container2">
-            <img src="/images/waffles.jpg" alt="photoofwaffles" class="image2" style="border:5px dotted white;"> 
+                <div class="overlay">Brownies</div>
+            </div>    
+            
+            <div class="column">
+            <img src="/images/waffles.jpg" alt="photoofwaffles" class="image" style="border:5px dotted white;"> 
             <div class="overlay">Waffles</div>
             </div>
-            </div>
-         <div class= "photobox3"> 
-             <div class="container3">
-             <img src="/images/cakes.jpg" alt="cookies" class="image3" style="border:5px dotted white;">
+            
+             <div class="column">
+             <img src="/images/cakes.jpg" alt="cookies" class="image" style="border:5px dotted white;">
              <div class="overlay">Cookies</div>
              </div>
          </div>
         </div>
        
-<style>
-.container1 {
-    position:relative;
-    width: 100%;
-    max-width: 300px;}
-  .container2 {
-    position: relative;
-    width: 100%;
-    max-width: 300px;}
-.container3{
-    position: relative;
-    width: 100%;
-    max-width: 300px;}
-
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  .image2 {
-  display: block;
-  width: 100%;
-  height: auto;
-  }
-  .image3 {
-  display: block;
-  width: 100%;
-  height: auto;}
-
-  .overlay {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: rgb(204, 171, 160);
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .overlay2 {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: rgb(204, 171, 160);
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-  }
-  .photobox1:hover .overlay2{
-    opacity: 1;
-  }
-  
-  .photobox2:hover .overlay{
-      opacity: 1;
-  }
-  .photobox3:hover .overlay{
-      opacity: 1;
-  }
-
-
-
-
-  </style>
 <!--text rating in html!-->
 
   <body>
-    <div class=textratings>
-        <div class=column1>
+    <div class="columncontainer">
+        <div class="column">
             <ul>
-                Kami likes chocolate cookies
-                Connie likes cookies
-            </ul><p> overall we really love these! But Kami prefers all chocolate ones!
-            </p>
-        </div>
-        <div class=column2 >
-            <p>
-                <ul>
-                Kami rates 5/10
-                Connie rates 6/10
+              <li>Kami prefers double chocolate chip!</li>
+              <li>Connie likes cookies</li>
             </ul>
-            overrall we love these!
+            <p>Overall we really love these! But Kami prefers all chocolate ones!</p>
+          </div>
+        <div class= "column" >
+                <ul>
+                <li>Kami likes waffles with nutella</li>
+               <li >Connie likes waffles with berries</li>
+            </ul>
+           </p> overrall we love these!
         </p>
         </div>
-        <div class=column3 >
-            <p>
+        <div class= "column" >
                 <ul>
-                Kami rates 5/10
-                Connie rates 6/10
+               <li>Kami rates 5/10</li>
+              <li>Connie rates 6/10</li>
             </ul>
-            Brownies are defined as a cake cake cake etx etc 
-        </p>
+           <p>Brownies are defined as a cake cake cake etx etc </p>
         </div>
     </div>
 
@@ -153,20 +75,6 @@
      <div>
       <button id=likebutton>Do you like our website?</button>
     </div>     
-         <script>
-                var x = document.getElementById("likebutton");
-                x.addEventListener("click", myFunction);
-                x.addEventListener("click", someOtherFunction);
-                
-                function myFunction() {
-                  alert ("Do you like our website?");
-                }
-                function someOtherFunction() {  alert ("We like it too!");}
-                </script> 
-         <script>
-                    document.body.addEventListener("click", function(){
-                      document.body.style.backgroundColor = "#3FBAAE";
-                    });
-                    </script> 
+
     </body>
     </html>
