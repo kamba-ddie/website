@@ -70,7 +70,8 @@ ul{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15;
+  width: 53px;
+  height:20px;
 }
   #conniebutton{
     box-shadow: 10px 10px 5px grey;
@@ -81,7 +82,7 @@ ul{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15;
-  }
-  /*text box design */
+  width: 53px;
+  height:20px;  }
+  
   
