@@ -63,11 +63,10 @@ ul{
 /*title box of page 2 */
 .gallery{
         margin-top: 50px;
-        width:100px;
-        height:100px;
         margin-left: 515px;
          white-space: nowrap;
          margin-top:10%;
+         color:rgb(190, 160, 204);
     }
 
       .column{
