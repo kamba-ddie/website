@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Gallery </title>
         <link rel="stylesheet" href="/css/images.css">
-        <script src="images.js"></script>
+        <script src = "images.js"></script>
         
     </head>
     <body>
@@ -83,5 +83,15 @@
       <button id=likebutton>Do you like our website?</button>
     </div>     
 
+    <script>
+        var x = document.getElementById("likebutton");
+        x.addEventListener("click", myFunction);
+        x.addEventListener("click", someOtherFunction);
+
+        function myFunction() {
+          alert ("Do you like our website?");
+        }
+        function someOtherFunction() {  alert ("We like it too!");}
+        </script>
     </body>
     </html>

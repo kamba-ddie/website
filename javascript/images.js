@@ -1,5 +1,5 @@
 
-                var x = document.getElementById("likebutton");
+                var x = images.html.document.getElementById("likebutton");
                 x.addEventListener("click", myFunction);
                 x.addEventListener("click", someOtherFunction);
                 
@@ -7,8 +7,8 @@
                   alert ("Do you like our website?");
                 }
                 function someOtherFunction() {  alert ("We like it too!");}
-                
-                    document.body.addEventListener("click", function(){
-                      document.body.style.backgroundColor = "#3FBAAE";
+
+                    images.body.addEventListener("click", function(){
+                      images.html.body.style.backgroundColor = "#3FBAAE";
                     });
                     
