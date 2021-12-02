@@ -10,10 +10,14 @@ ul{
   margin-left: 20px;
 }
 .croissant{
-margin-left: 450px;
-border:5px;
-border-color: purple;}
-
+margin-left: 450px;}
+.croissant{
+  align-items: center;
+  border: 5px solid purple;
+}
+.gbread{
+  border: 5px solid purple;
+}
 /*nav bar */
 .navbar {
   background-color: #0f2e68;
@@ -45,7 +49,7 @@ border-color: purple;}
   @media (hover: hover)
 
   {.flexItem1:hover {
-      background: rgb(239, 243, 6)
+      background: rgb(31, 32, 141)
   }
 }
 @media (hover: hover)
@@ -54,7 +58,7 @@ border-color: purple;}
   }
   }@media (hover: hover)
   {.flexItem3:hover {
-      background: rgb(50, 170, 13)
+      background: rgb(170, 13, 144)
   }
 }
 .flexItem1{
@@ -66,13 +70,16 @@ border-color: purple;}
 .flexItem3{
     flex: 1;
 }
+.text2{
+  color:rgb(62, 132, 197)
+}
   /*buttons on home page */ 
    #kamibutton {
     box-shadow: 10px 10px 5px grey;
     text-align: center;
     color: rgb(168, 198, 199);
     text-shadow: 2px 2px 2px #000;
-    background-color: rgb(33, 143, 170); 
+    background-color: rgb(130, 74, 182); 
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,11 +88,11 @@ border-color: purple;}
   height:50px;
 }
   #conniebutton{
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px rgb(214, 207, 207);
     text-align: center;
     color: rgb(168, 198, 199);
     text-shadow: 2px 2px 2px #000;
-    background-color: rgb(33, 143, 170); 
+    background-color: rgb(130, 74, 182); 
     display: block;
     font-size:large;
   margin-left: auto;
@@ -93,6 +100,3 @@ border-color: purple;}
   width: 100px;
   height:50px;  }
   
-  .croissant{
-    align-items: center;
-  }
