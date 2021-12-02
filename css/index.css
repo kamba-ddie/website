@@ -72,8 +72,9 @@ ul{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 53px;
-  height:20px;
+  font-size: large;
+  width: 100px;
+  height:50px;
 }
   #conniebutton{
     box-shadow: 10px 10px 5px grey;
@@ -82,9 +83,10 @@ ul{
     text-shadow: 2px 2px 2px #000;
     background-color: rgb(33, 143, 170); 
     display: block;
+    font-size:large;
   margin-left: auto;
   margin-right: auto;
-  width: 53px;
-  height:20px;  }
+  width: 100px;
+  height:50px;  }
   
   
