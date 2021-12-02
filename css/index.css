@@ -138,3 +138,36 @@ flex:1;
   margin-right: auto;
   width: 15;
   }
+  /*text box design */
+  .textratings{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    height: 300px;
+    padding: 20px;   
+    background-color:pink;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+  
+  .column1{
+    flex:1;
+    position:relative;
+    width: 33%;
+    max-width: 300px;}
+  
+  .column2{
+    flex:1;
+    position:relative;
+    width: 33%;
+    max-width: 300px;}
+  
+  .column3{
+    flex:1;
+    position:relative;
+    width: 33%;
+    max-width: 300px;}
+
+  
